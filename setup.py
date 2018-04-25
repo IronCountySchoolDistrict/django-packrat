@@ -10,6 +10,9 @@ setup(name='django_packrat',
       packages=find_packages(),
       install_requires=[
           'env-tools',
-          'colored'
+          'colored',
+          'psutil',
+          'time',
+          
       ],
       zip_safe=False)
