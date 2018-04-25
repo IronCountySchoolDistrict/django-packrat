@@ -12,7 +12,6 @@ setup(name='django_packrat',
           'env-tools',
           'colored',
           'psutil',
-          'time',
 
       ],
       zip_safe=False)
