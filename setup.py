@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='django_packrat',
-      version='0.0.1',
+      version='0.0.2',
       description='Integrates Webpack and BrowserSync with Django',
       url='https://github.com/IronCountySchoolDistrict/django-packrat',
       author='Iron County School District',
@@ -13,6 +13,6 @@ setup(name='django_packrat',
           'colored',
           'psutil',
           'time',
-          
+
       ],
       zip_safe=False)
