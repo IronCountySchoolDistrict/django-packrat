@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class DjangoPackratConfig(AppConfig):
-    name = 'django_packrat'
+class DjangoPackserverConfig(AppConfig):
+    name = 'django_packserver'

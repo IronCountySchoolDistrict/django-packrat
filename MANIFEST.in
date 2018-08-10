@@ -1,3 +1,3 @@
 include README.rst
 
-recursive-include django_packrat *.py
+recursive-include django_packserver *.py

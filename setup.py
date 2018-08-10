@@ -1,16 +1,16 @@
 from setuptools import setup, find_packages
 
-setup(name='django_packrat',
+setup(name='django_packserver',
       version='0.0.3',
-      description='Integrates Webpack and BrowserSync with Django',
-      url='https://github.com/IronCountySchoolDistrict/django-packrat',
+      description='Integserveres Webpack and BrowserSync with Django',
+      url='https://github.com/IronCountySchoolDistrict/django-packserver',
       author='Iron County School District',
       author_email='data@ironmail.org',
       license='MIT',
       packages=find_packages(),
       install_requires=[
           'env-tools',
-          'colored==1.3.5',
+          'colored',
           'psutil',
 
       ],
