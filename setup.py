@@ -12,6 +12,5 @@ setup(name='django_packserver',
           'env-tools',
           'colored',
           'psutil',
-
       ],
       zip_safe=False)
