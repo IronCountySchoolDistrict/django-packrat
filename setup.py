@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='django_packserver',
-      version='0.0.3',
+      version='0.0.4',
       description='Integserveres Webpack and BrowserSync with Django',
       url='https://github.com/IronCountySchoolDistrict/django-packserver',
       author='Iron County School District',

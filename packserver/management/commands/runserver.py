@@ -104,7 +104,7 @@ class Command(StaticfilesRunserverCommand):
     def start_webpack(self):
         self.stdout.write(stylize('>>> Starting webpack-serve', fg(135)))
 
-        webpack_command = getattr(settings, 'WEBPACK_DEVELOP_COMMAND', 'webpack-serve')
+        webpack_command = getattr(settings, 'WEBPACK_DEVELOP_COMMAND', 'webpack-dev-server')
         self.webpack_process = subprocess.Popen(
             webpack_command,
             shell=True,
